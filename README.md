@@ -79,7 +79,7 @@ Bu repo, Modanisa'dan ürün verilerini çeken, bu verileri OpenAI API'sini kull
 
 Programı yerel bir ortamda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
-1. Bu repo'yu kendi bilgisayarınıza klonlayın: `git clone https://github.com/kullaniciadi/Modanisa-OpenAI-eBay-Laravel.git` 
+1. Bu repo'yu kendi bilgisayarınıza klonlayın: `git clone https://github.com/erenoren10/Modanisa-OpenAI-eBay-Laravel.git` 
 2. Proje dizinine gidin ve gerekli bağımlılıkları yüklemek için Composer kullanarak aşağıdaki komutu çalıştırın: `composer install`
 3. `.env.example` dosyasını `.env` olarak kopyalayın ve gerekli ayarları yapın: `cp .env.example .env`
 4. Veritabanını yapılandırmak için `.env` dosyasını açın ve veritabanı bağlantı bilgilerinizi girin.
