@@ -64,3 +64,54 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# Modanisa-OpenAI-eBay-Laravel
+
+Bu repo, Modanisa'dan ürün verilerini çeken, bu verileri OpenAI API'sini kullanarak açıklama üreten ve ardından bu ürünleri eBay platformuna yükleyen bir Laravel uygulamasını içerir.
+
+## Özellikler
+
+- Modanisa'dan ürün verilerini çeker ve veritabanına kaydeder.
+- OpenAI API'sini kullanarak ürün açıklamalarını otomatik olarak oluşturur.
+- Oluşturulan açıklamaları ve diğer ürün bilgilerini kullanarak eBay platformuna ürünlerinizi yükler.
+
+## Kurulum
+
+Programı yerel bir ortamda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
+
+1. Bu repo'yu kendi bilgisayarınıza klonlayın: `git clone https://github.com/kullaniciadi/Modanisa-OpenAI-eBay-Laravel.git` 
+2. Proje dizinine gidin ve gerekli bağımlılıkları yüklemek için Composer kullanarak aşağıdaki komutu çalıştırın: `composer install`
+3. `.env.example` dosyasını `.env` olarak kopyalayın ve gerekli ayarları yapın: `cp .env.example .env`
+4. Veritabanını yapılandırmak için `.env` dosyasını açın ve veritabanı bağlantı bilgilerinizi girin.
+5. Veritabanını oluşturmak ve tabloları oluşturmak için migrate komutunu çalıştırın: `php artisan migrate`
+6. Projenin ana dizinindeyken, yerel sunucuyu başlatmak için aşağıdaki komutu çalıştırın: `php artisan serve`
+   
+## Kullanım
+
+Uygulamayı başlatmak için yerel sunucunun çalıştığından emin olduktan sonra tarayıcınızda `http://localhost:8000` adresine gidin. Bu adres, uygulamanın ana sayfasını gösterecektir. Ardından, Modanisa'dan veri çekmek ve OpenAI ve eBay entegrasyonunu kullanarak ürünleri yönetmek için gerekli adımları takip edebilirsiniz.
+
+## Katkıda Bulunma
+
+Eğer projeye katkıda bulunmak istiyorsanız, lütfen aşağıdaki adımları izleyin:
+
+1. Bu repo'yu kendi hesabınıza fork edin.
+
+2. Yeni özellikler veya düzeltmeler ekleyin.
+
+3. Değişiklikleriniz için bir pull request oluşturun.
+
+4. İncelemem için pull request'i gönderin.
+
+## Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasını inceleyebilirsiniz.
+
+
+
+
+
+
+
+
+
+
